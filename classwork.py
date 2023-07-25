@@ -13,14 +13,12 @@
 
 
 sentences = ['This is a ball', 'The ball is on the table', 'This is my name']
-def find_sentences_with_words
-
-
-for word in lst:
-    if len(word.split(' ')) > len(longest.split(' '))
-        longest = word
+def find_sentences_with_words(lst):
+    longest = ''
+    for word in lst:
+        if len(word.split(' ')) > len(longest.split(' ')):
+         longest = word
     return longest
-
 
 
 random_stuffs = ['Hello', '23', '2.4', 'Night', 'welcome']
