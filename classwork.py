@@ -17,6 +17,7 @@ def find_sentences_with_words(lst):
     longest = ''
     for word in lst:
         if len(word.split(' ')) > len(longest.split(' ')):
+            
          longest = word
     return longest
 
